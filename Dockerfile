@@ -1,5 +1,2 @@
-dist: trusty
-
-jobs: 
-  include: 
-    -stage: Docker build stage
+FROM nginx
+COPY . /usr/share/nginx/html
