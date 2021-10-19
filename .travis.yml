@@ -10,7 +10,7 @@ jobs:
       before_scripts:
       - npm install
       scripts:
-        -npm test  
+        - npm test  
       after_success:
         - echo "Test Success"
     - stage: Docker build Stage
