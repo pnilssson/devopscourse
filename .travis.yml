@@ -1,9 +1,9 @@
 language: node_js
 node_js: 
-  -"12"
+  - "12"
 sudo: required
 services: 
- - docker
+  - docker
 jobs: 
   include:
     - stage: Test Stage
